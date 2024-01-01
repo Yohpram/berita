@@ -1,4 +1,4 @@
-package com.azhar.newsapp.activities
+package com.walwiyo.berita.activities
 
 import android.content.Intent
 import android.graphics.Bitmap
