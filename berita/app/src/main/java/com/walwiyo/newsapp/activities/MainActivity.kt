@@ -1,4 +1,4 @@
-package com.azhar.newsapp.activities
+package com.walwiyo.berita.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
