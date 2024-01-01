@@ -1,41 +1,31 @@
-package com.azhar.newsapp.fragment
+package com.walwiyo.berita.fragment
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.EditorInfo
-import android.view.inputmethod.InputMethodManager
-import android.widget.*
-import android.widget.TextView.OnEditorActionListener
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.azhar.newsapp.R
-import com.azhar.newsapp.adapter.NewsAdapter
-import com.azhar.newsapp.model.ModelArticle
-import com.azhar.newsapp.model.ModelNews
-import com.azhar.newsapp.networking.ApiEndpoint.getApiClient
-import com.azhar.newsapp.networking.ApiInterface
-import kotlinx.android.synthetic.main.fragment_search.*
+import com.walwiyo.berita.R
+import com.walwiyo.adapter.NewsAdapter
+import com.walwiyo.adapter.model.ModelArticle
+import com.walwiyo.adapter.model.ModelNews
+import com.walwiyo.adapter.networking.ApiEndpoint.getApiClient
+import com.walwiyo.adapter.networking.ApiInterface
+import com.walwiyo.adapter.util.Utils.getCountry
+import kotlinx.android.synthetic.main.fragement_news.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import java.util.*
 
-/**
- * Created by Azhar Rivaldi on 10-04-2021
- * Github : https://github.com/AzharRivaldi
- * Linkedin : https://www.linkedin.com/in/azhar-rivaldi
- * Instagram : https://www.instagram.com/azhardvls_
- * Twitter : https://twitter.com/azharrvldi_
- * Youtube Channel : https://bit.ly/2PJMowZ
- */
 
-class FragmentSearch : Fragment() {
+
+class FragmentEntertaiment : Fragment() {
 
     companion object {
-        const val API_KEY = "API KEY ada di Video YT"
+        const val API_KEY = "37406917fb9243c39f7221bd7c9b26d6"
     }
 
     var strKeywords: String = ""
