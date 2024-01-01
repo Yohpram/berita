@@ -1,4 +1,4 @@
-package com.azhar.newsapp.fragment
+package com.walwiyo.berita.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
