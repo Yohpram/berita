@@ -3,8 +3,8 @@ package com.azhar.newsapp.activities
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.walwiyo.newsapp.R
-import com.walwiyo.newsapp.fragment.*
+import com.walwiyo.berita.R
+import com.walwiyo.berita.fragment.*
 import com.ismaeldivita.chipnavigation.ChipNavigationBar
 import kotlinx.android.synthetic.main.activity_main.*
 
