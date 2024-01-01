@@ -25,7 +25,7 @@ import java.util.*
 class FragmentBusiness : Fragment() {
 
     companion object {
-        const val API_KEY = "API KEY ada di Video YT"
+        const val API_KEY = "37406917fb9243c39f7221bd7c9b26d6"
     }
 
     var strCategory = "business"
